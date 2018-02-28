@@ -1,0 +1,286 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <RelativeLayout
+        android:id="@+id/layoutmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/back1"
+
+
+        >
+        <LinearLayout
+
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20sp"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:background="@drawable/signup"
+                android:layout_marginBottom="10sp"
+                />
+            <TextView
+                android:id="@+id/text5"
+                android:layout_height="20sp"
+                android:layout_width="match_parent"
+                android:text="Full Name:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                />
+            <EditText
+                android:layout_height="35sp"
+                android:layout_width="match_parent"
+                android:id="@+id/name"
+
+
+                android:background="#0000"
+
+                android:hint="Kuljinder Singh"
+                android:layout_margin="5sp"
+                android:inputType="text"
+                />
+            <TextView
+                android:id="@+id/text6"
+                android:layout_height="20sp"
+                android:layout_width="match_parent"
+                android:text="Sex:"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                android:textColor="#000"
+
+                />
+            <RadioGroup
+                android:layout_height="30sp"
+                android:layout_width="wrap_content"
+                android:id="@+id/sex"
+                android:orientation="horizontal"
+                >
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_height="wrap_content"
+                    android:layout_width="120sp"
+                    android:text="Male"
+
+                    android:textColor="#000"
+                    />
+                <RadioButton
+
+                    android:textColor="#000"
+
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:id="@+id/female"
+                    android:text="Female"
+
+                    />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/text11"
+                android:layout_height="25sp"
+                android:layout_width="match_parent"
+                android:text="Age:"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                android:textColor="#000"
+                />
+
+            <EditText
+                android:layout_height="35sp"
+                android:layout_width="match_parent"
+                android:id="@+id/age"
+                android:background="#0000"
+                android:hint="18"
+                android:layout_margin="5sp"
+                android:inputType="number"
+
+                android:textColor="#000"
+                />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_height="20sp"
+                android:layout_width="match_parent"
+                android:text="Email id:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                />
+
+
+            <EditText
+                android:layout_height="35sp"
+                android:layout_width="match_parent"
+                android:id="@+id/email"
+                android:textColor="#000"
+                android:hint="abcde@gmail.com"
+                android:background="#0000"
+                android:layout_margin="5sp"
+                android:inputType="textEmailAddress"
+                />
+            <TextView
+                android:id="@+id/text8"
+                android:layout_height="25sp"
+                android:layout_width="match_parent"
+                android:text="Phone no.:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+                />
+
+            <EditText
+                android:layout_height="35sp"
+                android:layout_width="match_parent"
+                android:id="@+id/phonenumber"
+                android:hint="8437163502"
+                android:layout_margin="5sp"
+                android:textColor="#000"
+                android:background="#0000"
+                android:inputType="number"
+                />
+            <TextView
+                android:id="@+id/bmitext"
+                android:layout_height="25sp"
+                android:layout_width="match_parent"
+                android:text="BMI:(Don't know ? click here)"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                />
+            <EditText
+                android:layout_height="35sp"
+                android:layout_width="match_parent"
+                android:id="@+id/bmiedittext"
+                android:hint="25"
+                android:layout_margin="5sp"
+                android:textColor="#000"
+                android:background="#0000"
+                android:inputType="numberDecimal"
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_height="25sp"
+                android:layout_width="match_parent"
+                android:text="Username:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                />
+
+
+            <EditText
+                android:layout_height="35sp"
+                android:layout_width="match_parent"
+                android:id="@+id/actualusername"
+                android:textColor="#000"
+                android:hint="Username"
+                android:background="#0000"
+                android:layout_margin="5sp"
+                android:inputType="text"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_height="25sp"
+                android:layout_width="match_parent"
+                android:text="Password:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                />
+
+            <EditText
+                android:layout_height="35sp"
+                android:layout_width="match_parent"
+                android:id="@+id/actualpassword"
+                android:hint="******"
+                android:layout_margin="5sp"
+                android:textColor="#000"
+                android:background="#0000"
+                android:inputType="textVisiblePassword"
+                />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_height="25sp"
+                android:layout_width="match_parent"
+                android:text="Confirm password:"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="20sp"
+
+
+                />
+            <EditText
+                android:layout_height="35sp"
+                android:layout_width="match_parent"
+                android:id="@+id/confirmpassword"
+                android:hint="******"
+                android:layout_margin="5sp"
+                android:textColor="#000"
+                android:background="#0000"
+                android:inputType="textVisiblePassword"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/layout2"
+                android:layout_marginTop="15sp"
+                android:gravity="center_horizontal"
+                android:paddingBottom="10sp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_height="40sp"
+                    android:layout_width="140sp"
+                    android:text="Register"
+                    android:textColor="#f00"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/imageshape"
+                    android:longClickable="true"
+                    >
+                </Button>
+                <Button
+                    android:layout_toRightOf="@id/submit"
+                    android:id="@+id/cancel"
+                    android:layout_marginLeft="10sp"
+                    android:layout_height="40sp"
+                    android:layout_width="140sp"
+                    android:text="Cancel"
+                    android:textColor="#f00"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/imageshape"
+
+                    />
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout></ScrollView>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back1">
+
+    <ViewFlipper
+
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        android:id="@+id/gymflipper"
+        android:inAnimation="@anim/slide_in_right"
+        android:outAnimation="@anim/slide_out_left"
+
+        >
+
+        <ImageView
+            android:layout_height="150sp"
+            android:layout_width="match_parent"
+            android:id="@+id/image1"
+            android:background="@raw/gym1"
+
+            />
+
+
+        <ImageView
+            android:layout_height="150sp"
+            android:layout_width="match_parent"
+            android:id="@+id/image2"
+            android:background="@raw/gym2"
+
+            />
+
+
+        <ImageView
+            android:layout_height="150sp"
+            android:layout_width="match_parent"
+            android:id="@+id/image3"
+            android:background="@raw/gym3"
+
+            />
+
+
+        <ImageView
+            android:layout_height="150sp"
+            android:layout_width="match_parent"
+            android:id="@+id/image4"
+            android:background="@raw/gym4"
+
+            />
+
+        <ImageView
+            android:layout_height="150sp"
+            android:layout_width="match_parent"
+            android:id="@+id/image5"
+            android:background="@raw/gym5"
+
+            />
+        <ImageView
+            android:layout_height="150sp"
+            android:layout_width="match_parent"
+            android:id="@+id/image6"
+            android:background="@raw/gym6"
+
+            />
+        <ImageView
+            android:layout_height="150sp"
+            android:layout_width="match_parent"
+            android:id="@+id/image7"
+            android:background="@raw/gym7"
+
+            />
+
+
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:id="@+id/gymtext1"
+        android:background="@drawable/imageshape"
+        android:gravity="center"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginLeft="25sp"
+        android:text="Exercises"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/gymflipper"
+        android:textSize="20sp"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:id="@+id/gymtext2"
+        android:background="@drawable/imageshape"
+        android:gravity="center"
+
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginLeft="25sp"
+        android:text="Motivation"
+        android:textSize="20sp"
+
+        android:textColor="#ff0000"
+        android:layout_below="@+id/gymtext1"
+
+
+
+        />
+
+
+</RelativeLayout>

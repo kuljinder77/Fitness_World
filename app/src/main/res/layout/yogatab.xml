@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/back1">
+
+
+<ViewFlipper
+
+    android:layout_height="150sp"
+    android:layout_width="match_parent"
+    android:id="@+id/yogaflipper"
+    android:inAnimation="@anim/slide_in_right"
+    android:outAnimation="@anim/slide_out_left"
+
+
+    >
+
+    <ImageView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        android:id="@+id/image1"
+        android:background="@raw/yoga1"
+
+        />
+
+
+    <ImageView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        android:id="@+id/image2"
+        android:background="@raw/yoga2"
+
+        />
+
+
+    <ImageView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        android:id="@+id/image3"
+        android:background="@raw/yoga3"
+
+        />
+
+
+    <ImageView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        android:id="@+id/image4"
+        android:background="@raw/yoga4"
+
+        />
+
+    <ImageView
+        android:layout_height="150sp"
+        android:layout_width="match_parent"
+        android:id="@+id/image5"
+        android:background="@raw/yoga5"
+
+        />
+    <ImageView
+    android:layout_height="150sp"
+    android:layout_width="match_parent"
+    android:id="@+id/image6"
+    android:background="@raw/yoga6"
+
+    />
+
+
+
+</ViewFlipper>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:id="@+id/yogatypes"
+        android:background="@drawable/imageshape"
+        android:gravity="center"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginLeft="25sp"
+        android:text="Types"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_below="@+id/yogaflipper"
+        android:textSize="20sp"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:id="@+id/yogafor"
+        android:background="@drawable/imageshape"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginLeft="25sp"
+        android:text="Yoga For"
+        android:textSize="20sp"
+
+        android:textColor="#ff0000"
+        android:layout_below="@+id/yogatypes"
+
+
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:id="@+id/yogamotivation"
+        android:textStyle="bold"
+        android:background="@drawable/imageshape"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:layout_marginRight="25sp"
+        android:layout_marginLeft="25sp"
+        android:text="Motivation"
+        android:textSize="20sp"
+
+        android:textColor="#ff0000"
+        android:layout_below="@+id/yogafor"
+
+
+
+        />
+</RelativeLayout>

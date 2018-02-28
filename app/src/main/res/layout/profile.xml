@@ -1,0 +1,169 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back1"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_height="100sp"
+        android:layout_width="match_parent"
+        android:background="@drawable/profile"
+
+        />
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:id="@+id/userimage"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/userimage"
+        />
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20sp">
+    <TextView
+
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textColor="#000"
+        android:textSize="27sp"
+        />
+        <TextView
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kuljinder singh"
+            android:layout_marginLeft="20sp"
+            android:textSize="30sp"
+            android:id="@+id/name"
+            />
+</LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#000"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Sex:"
+            android:textSize="27sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="#000"
+            android:layout_marginLeft="20sp"
+            android:textSize="30sp"
+            android:id="@+id/sex"
+            />
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#000"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="27sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="#000"
+            android:layout_marginLeft="20sp"
+            android:textSize="30sp"
+            android:id="@+id/age"
+            />
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="130sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:text="Username:"
+            android:textSize="26sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kuljinder singh"
+            android:layout_marginLeft="5sp"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:id="@+id/username"
+            />
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:text="Bmi:"
+            android:textColor="#000"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textColor="#000"
+            android:layout_marginLeft="20sp"
+            android:textSize="30sp"
+            android:id="@+id/bmi"
+            />
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100sp"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:text="Phone:"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8437163502"
+            android:textColor="#000"
+            android:layout_marginLeft="20sp"
+            android:textSize="30sp"
+            android:id="@+id/phone"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="50sp"
+        android:id="@+id/close"
+        android:textColor="#000"
+        android:textStyle="bold|italic"
+        android:text="Close"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/imageshape"
+
+        />
+
+</LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>

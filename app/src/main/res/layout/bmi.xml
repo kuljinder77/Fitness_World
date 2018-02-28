@@ -1,0 +1,142 @@
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/back1">
+<ImageView
+    android:layout_height="100sp"
+    android:layout_width="match_parent"
+    android:id="@+id/image"
+    android:background="@raw/bmi"
+    android:layout_marginBottom="40sp"/>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:textColor="#000000"
+        android:id="@+id/heighttext"
+        android:text="Enter your hieght:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_below="@+id/image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        </TextView>
+    <EditText
+        android:layout_height="40sp"
+        android:layout_width="85sp"
+        android:textColor="#000000"
+        android:id="@+id/heightfeet"
+        android:gravity="center"
+        android:background="@drawable/imageshape"
+        android:inputType="numberDecimal"
+        android:layout_alignBottom="@+id/heighttext"
+        android:layout_alignLeft="@+id/heightinches"
+        android:layout_alignStart="@+id/heightinches"></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feet"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:id="@+id/feettext"
+        android:layout_below="@+id/image"
+        android:layout_alignLeft="@+id/inchestext"
+        android:layout_alignStart="@+id/inchestext" />
+    <EditText
+        android:layout_height="40sp"
+        android:layout_width="85sp"
+        android:layout_marginLeft="0dp"
+        android:textColor="#000000"
+        android:id="@+id/heightinches"
+        android:gravity="center"
+        android:background="@drawable/imageshape"
+        android:inputType="numberDecimal"
+
+
+        android:layout_below="@+id/heightfeet"
+        android:layout_toRightOf="@+id/weighttext"
+        android:layout_toEndOf="@+id/weighttext"
+        android:layout_marginStart="30dp"></EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inches"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="10sp"
+        android:layout_below="@+id/feettext"
+        android:layout_toRightOf="@+id/heightinches"
+        android:id="@+id/inchestext"
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:textColor="#000000"
+        android:id="@+id/weighttext"
+        android:text="Enter your weight:"
+        android:layout_marginTop="79dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_below="@+id/heighttext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></TextView>
+    <EditText
+        android:layout_height="40sp"
+        android:layout_width="85sp"
+        android:textColor="#000000"
+        android:inputType="numberDecimal"
+        android:id="@+id/weight"
+        android:background="@drawable/imageshape"
+        android:gravity="center"
+
+        android:layout_alignBottom="@+id/weighttext"
+        android:layout_toLeftOf="@+id/inchestext"
+        android:layout_toStartOf="@+id/inchestext"></EditText>
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:textColor="#000000"
+        android:id="@+id/kgtext"
+        android:text="Kg"
+        android:textSize="20sp"
+
+        android:layout_alignBottom="@+id/weight"
+        android:layout_alignLeft="@+id/inchestext"
+        android:layout_alignStart="@+id/inchestext"></TextView>
+
+    <Button
+        android:layout_width="200sp"
+        android:textColor="#ee0000"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:background="@drawable/imageshape"
+        android:id="@+id/calulate"
+        android:layout_below="@+id/weighttext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/bmiview"
+        android:visibility="invisible"
+        android:layout_below="@+id/calulate"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/bmistatus"
+        android:layout_below="@+id/bmiview"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp" />
+
+
+</RelativeLayout>

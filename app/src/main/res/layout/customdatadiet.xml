@@ -1,0 +1,48 @@
+
+    <RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutmain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="20sp">
+                <TextView
+                    android:id="@+id/mealname9"
+                    android:layout_height="wrap_content"
+                    android:layout_width="130sp"
+                    android:text="Full Name:"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+
+
+                    />
+                <TextView
+                    android:id="@+id/meal9"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Full Name:"
+                    android:textColor="#000"
+                    android:layout_marginLeft="5sp"
+                    android:textSize="20sp"
+
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+    </RelativeLayout>

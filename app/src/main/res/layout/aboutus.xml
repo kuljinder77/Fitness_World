@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center_horizontal" android:background="@drawable/back1" android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:id="@+id/aboutusimage"
+        android:background="@drawable/aboutus"
+
+        /><TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="g"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/aboutusimage"
+        />
+
+        <TextView
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+
+            android:text="X"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/close"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/aboutus"
+        android:text="First of all wee are the engineers and engineers are awesome."
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:layout_margin="20sp"
+        android:textColor="#000"
+        android:textSize="25sp"
+
+
+        />
+
+
+</LinearLayout>

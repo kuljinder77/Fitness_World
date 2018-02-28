@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutmain"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back1"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical" xmlns:android1="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:background="@drawable/login"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_margin="20dp"
+            android:background="@drawable/imageshape"
+            android:hint="Username"
+            android:gravity="center"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_marginLeft="20sp"
+            android:textColor="#000000"
+            android:layout_height="60sp"
+            android:background="@drawable/imageshape"
+            android:layout_width="match_parent"
+            android:id="@+id/password"
+            android:hint="******"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:inputType="textPassword"
+            />
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/layout2"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+
+            >
+            <Button
+                android:id="@+id/submit"
+                android:layout_height="50dp"
+
+                android:layout_width="140dp"
+                android:textStyle="bold|italic"
+                android:textColor="#f00"
+                android:background="@drawable/imageshape"
+                android:text="Login">
+            </Button>
+
+            <Button
+                android:layout_toRightOf="@+id/submit"
+                android:textStyle="bold|italic"
+
+                android:textColor="#f00"
+                android:background="@drawable/imageshape"
+                android:id="@+id/signup"
+                android:layout_height="50dp"
+                android:layout_width="140dp"
+                android:text="Sign Up"
+                android:layout_marginLeft="10sp"
+                >
+            </Button>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
