@@ -17,6 +17,10 @@ The fitness application which can help to understand the way to do some exercise
 
 <img src="https://user-images.githubusercontent.com/30164269/38096992-38213b66-3342-11e8-8387-6888a7ef0e94.jpeg" alt="Exercise types screen" width="130" height="150">
 
+#Supplement store screen
+
+<img src="https://user-images.githubusercontent.com/30164269/38098528-4cbe000a-3346-11e8-985a-80a3989d06c8.jpeg" alt="Supplement store screen" width="130" height="150">
+
 #Supplement screen
 
 <img src="https://user-images.githubusercontent.com/30164269/38097009-433db056-3342-11e8-9071-4dab9903ee5e.jpeg" alt="Supplement buy screen" width="130" height="150">
